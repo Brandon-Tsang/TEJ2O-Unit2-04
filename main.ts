@@ -9,7 +9,7 @@ basic.clearScreen ()
 basic.showIcon (IconNames.Happy)
 
 input.onButtonPressed(Button.A, function () {
-    const currentTemperature = input.temperature();
-    basic.showString("The Temperature is: " + convertToText(currentTemperature) + " C.")
+    const currentTemperature = input.temperature()
+    basic.showString("The Temperature is: " + (currentTemperature).toString() + " C.")
 })
 
